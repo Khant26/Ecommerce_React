@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import TopBar from '../Component/TopBar.jsx';
 import NavBar from '../Component/NavBar.jsx';
 import Footer from '../Component/Footer.jsx';
-import HeroSectionLogIn from '../Component/HeroSectionLogIn.jsx';
+import HeroSectionSignUp from '../Component/HeroSectionSignUp.jsx';
 import '../index.css'; // Importing the CSS file for global styles
 
+
 // Main App Component
-const Login = () => {
+const SignUp = () => {
   return (
     <div className="min-h-screen bg-light font-sans antialiased text-dark">
       {/* Bootstrap CSS */}
@@ -16,13 +17,15 @@ const Login = () => {
       {/* Google Fonts - Inter */}
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
+      {/* Custom styles moved back here for direct application */}
+      
       < TopBar />
       < NavBar />
-      < HeroSectionLogIn />
-      < Footer /> 
+      < HeroSectionSignUp />  
+      < Footer />
     </div>
   );
 };
 
 // Export the App component
-export default Login;
+export default SignUp;

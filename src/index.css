@@ -1,0 +1,28 @@
+
+        body {
+          font-family: 'Inter', sans-serif;
+        }
+        .text-decoration-underline-red {
+            text-decoration: underline;
+            text-decoration-color: #dc3545; /* Bootstrap's red */
+            text-decoration-thickness: 4px;
+            text-underline-offset: 8px;
+        }
+        .hover-underline-red:hover {
+            text-decoration: underline;
+            text-decoration-color: #dc3545;
+            text-decoration-thickness: 4px;
+            text-underline-offset: 8px;
+            transition: all 0.3s ease-in-out;
+        }
+        .min-vh-100-minus-header {
+            min-height: calc(100vh - 140px); /* Adjust based on actual header/footer height */
+        }
+        .modal.d-block {
+            display: block;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .modal-dialog {
+            z-index: 1050;
+        }
+  
