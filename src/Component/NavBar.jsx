@@ -1,12 +1,12 @@
 import React from 'react';
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../index.css'; // Ensure this path is correct based on your project structure
 
 function NavBar () {
   return (
     <nav className="navbar navbar-expand-lg bg-white border-bottom py-3 px-4">
       <div className="container-fluid">
-        <a className="navbar-brand fs-4 fw-bold text-dark" href="#">Exclusive</a>
+        <button className="navbar-brand fs-4 fw-bold text-dark btn btn-link" type="button">Exclusive</button>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

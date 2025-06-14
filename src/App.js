@@ -1,12 +1,10 @@
 import React from 'react';// Corrected casing
-import LoginPage from './Pages/LoginPage'; // Importing the LoginPage component
-import SignUp from './Pages/SignupPage';
-import Login from './Pages/LoginPage';
+import HomePage from './Pages/HomePage';
 
 function App() {
   return (
     <div>
-      <SignUp />
+      <HomePage />
     </div>
   );
 }
