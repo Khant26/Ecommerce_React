@@ -38,6 +38,7 @@ function NavBar () {
                 </svg>
               </button>
             </div>
+            
           </div>
         </div>
       </div>
