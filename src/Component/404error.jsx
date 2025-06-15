@@ -6,7 +6,7 @@ export default function NotFoundPage() {
         {/* Main content container */}
         <div className="w-full max-w-lg px-4  text-center">
           {/* Breadcrumb Navigation */}
-          <div className="mb-8 text-left" >
+          <div className="mb-8 float-left" >
             <p className="text-sm text-gray-500  float-left" >
                 
               <a href="#" className="hover:underline">Home</a>
