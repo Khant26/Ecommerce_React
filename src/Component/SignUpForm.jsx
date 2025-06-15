@@ -15,7 +15,7 @@ const SignUpForm = () => {
         {/* Name Input */}
         <div className="mb-4">
           <input
-            type="text"
+            type="text" 
             placeholder="Name"
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
@@ -71,5 +71,7 @@ const SignUpForm = () => {
     </div>
   );
 };
+
+
 
 export default SignUpForm;

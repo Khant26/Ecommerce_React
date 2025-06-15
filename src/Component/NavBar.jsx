@@ -1,6 +1,5 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../index.css'; // Ensure this path is correct based on your project structure
+ // Ensure this path is correct based on your project structure
 
 function NavBar () {
   return (
