@@ -2,11 +2,6 @@ import React from 'react';
 import SignUpForm from './SignUpForm';
 
 // Assuming LoginForm is in the same directory
-
-
-
-
-
 function HeroSectionSignUp () {
   return (
     <div className="d-flex flex-column flex-lg-row min-vh-100-minus-header"> {/* Custom class for height */}
